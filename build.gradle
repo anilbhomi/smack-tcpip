@@ -1,8 +1,14 @@
 description = """\
 Smack for standard XMPP connections over TCP."""
 
+apply plugin: 'maven'
 dependencies {
 //	api project(':smack-core')
 //	api project(':smack-streammanagement')
 
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
 }
